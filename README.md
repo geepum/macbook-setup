@@ -1,0 +1,112 @@
+# Macbook initial set-up
+
+## installation
+- terminal
+    - homebrew
+    - ```brew install --cask firefox google-chrome visual-studio-code iterm2```
+    - ```brew install python3 pipenv nvm gh awscli```
+    - ```nvm *version*```
+    - ```gh auth login``` -> github.com -> https
+    - Rust
+    - ```defaults write com.apple.finder CreateDesktop false``` -> ```Killall Finder```
+- App store
+    - 1PassWord, Things3, iA Writer, MindNode, Magnet, KakaoTalk, WeChat
+    - Word, Excel, PowerPoint, OneDrive, 한컴오피스
+- Download and install
+    - parallels
+- Erase
+    - Pages, Numbers
+
+## GUI
+- System Preferences
+    - General
+        - Appearance: Dark
+        - Show scroll bars: When scrollling
+        - Default Browser: Firefox
+    - Desktop & Screen Saver
+        - Desktop -> Colors -> Black
+        - Screen Saver -> Message
+            - [x] Show with clock
+    - Dock & Menu Bar
+        - Size: close to **small**
+        - Position on screen: Bottom
+        - [x] Double-click a window's title bar to **minimize**
+        - [x] Automatically hide and show the Dock
+        - Control Center
+            - [x] Show in menu bar
+                - Wi-Fi
+                - Sound
+                - Battery to **Show percentage**
+                - Clock to **Show the day of te week** and **Show date** and **digital** and **Use 24-hour clock** and **Display time with seconds**
+    - Mission control
+        - [x] When switching to an application, switch to a Space with open windows for the application
+        - [x] Displays have separate Spaces
+    - Spotlight
+        - [ ] Fonts
+        - [ ] Siri suggestions
+    - Language & Region
+        - Region: South Korea
+        - Time format: 24-hour
+        - Advanced
+            - Currency: US Dollar
+    - Notifications
+        - [x] Calendar
+        - [x] Eject Volumes
+        - [x] FaceTime
+        - [x] Find My
+        - [x] KakoTalk
+        - [x] Mail
+        - [x] Maps
+        - [x] Messages
+        - [x] Notes
+        - [x] OneDrive
+        - [x] Photos
+        - [x] Reminders
+        - [x] Things
+        - [x] WeChat
+        - show previews: **when unlocked** and [x] when the screen is locked
+    - Screen Time
+        - Off
+    - Security & Privacy
+        - Privacy
+            - [x] Magnet
+    - Touch ID
+        - one right hand and another left hand
+    - Keyboard
+        - Input Sources
+            - [x] show input menu
+            - [x] automatically switch to document's input source
+    - Trackpad
+        - Point & Click
+            - [ ] Tap to click
+            - Tracking speed -> Fast
+    - Mouse
+        - Tracking speed -> Fast
+        - Scrolling speed -> Fast
+    - Displays
+        - [ ] Automatically adjust brightness
+        - [ ] True Tone
+    - Date & Time
+        - local
+- Right side swipe
+    - world clock setup
+        - 4-clock
+            - Seoul, Salt Lake City, Edmonton, Local
+            - Next selected cities
+- Finder
+    - finder preference
+        - general
+            - [x] open folders in tabs
+        - sidebar
+            - [x] airdrop
+            - [x] application
+            - [x] downloads
+            - [x] icloud drive
+            - [x] shared
+            - [x] desktop
+            - [x] external disks
+            - [x] CD DVD
+            - [x] cloud storage
+            - [x] connected server
+        - advanced -> all ✅
+- 
