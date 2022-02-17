@@ -9,6 +9,7 @@
     - ```gh auth login``` -> github.com -> https
     - Rust
     - ```defaults write com.apple.finder CreateDesktop false``` -> ```Killall Finder```
+    - ```vi .zshrc``` -> ```alias ll='ls -la'```
 - App store
     - 1PassWord, Things3, iA Writer, MindNode, Magnet, KakaoTalk, WeChat
     - Word, Excel, PowerPoint, OneDrive, 한컴오피스
