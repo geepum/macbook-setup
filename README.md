@@ -5,6 +5,7 @@
     - homebrew
     - ```brew install --cask firefox google-chrome visual-studio-code iterm2```
     - ```brew install python3 pipenv nvm gh awscli```
+    - ```echo 'export PATH="/opt/homebrew/opt/python@[version]/bin:$PATH"' >> ~/.zshrc``` => ```source ~/.zshrc```
     - ```nvm *version*```
     - ```gh auth login``` -> github.com -> https
     - Rust
