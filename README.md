@@ -78,6 +78,8 @@
         - Input Sources
             - [x] show input menu
             - [x] automatically switch to document's input source
+	    - [x] move a space left => ctrl + option + command + left arrow
+	    - [x] move a space right => ctrl + option + command + right arrow
     - Trackpad
         - Point & Click
             - [ ] Tap to click
