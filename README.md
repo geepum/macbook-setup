@@ -1,116 +1,51 @@
 # Macbook initial set-up
 
-## installation
-- terminal
-    - homebrew
-    - ```brew install --cask firefox google-chrome visual-studio-code iterm2```
-    - ```brew install python3 pipenv nvm gh awscli```
-    - ```echo 'export PATH="/opt/homebrew/opt/python@[version]/bin:$PATH"' >> ~/.zshrc``` => ```source ~/.zshrc```
-    - ```nvm *version*```
-    - ```gh auth login``` -> github.com -> https
-    - Rust
-    - ```defaults write com.apple.finder CreateDesktop false``` -> ```Killall Finder```
-    - ```vi .zshrc``` -> ```alias ll='ls -la'```
-- App store
-    - 1PassWord, Things3, iA Writer, MindNode, Magnet, KakaoTalk, WeChat
-    - Word, Excel, PowerPoint, OneDrive, 한컴오피스
-- Download and install
-    - parallels
-- Erase
-    - Pages, Numbers
+## System Preference
+- set up desk top and screen saver
+- touch ID
+- keyboard, trackpad, and mouse
+- set up displays
+- set up battery
 
-## GUI
-- System Preferences
-    - General
-        - Appearance: Dark
-        - Show scroll bars: When scrollling
-        - Default Browser: Firefox
-    - Desktop & Screen Saver
-        - Desktop -> Colors -> Black
-        - Screen Saver -> Message
-            - [x] Show with clock
-    - Dock & Menu Bar
-        - Size: close to **small**
-        - Position on screen: Bottom
-        - [x] Double-click a window's title bar to **minimize**
-        - [x] Automatically hide and show the Dock
-        - Control Center
-            - [x] Show in menu bar
-                - Wi-Fi
-                - Sound
-                - Battery to **Show percentage**
-                - Clock to **Show the day of te week** and **Show date** and **digital** and **Use 24-hour clock** and **Display time with seconds**
-    - Mission control
-        - [x] When switching to an application, switch to a Space with open windows for the application
-        - [x] Displays have separate Spaces
-    - Spotlight
-        - [ ] Fonts
-        - [ ] Siri suggestions
-    - Language & Region
-        - Region: South Korea
-        - Time format: 24-hour
-        - Advanced
-            - Currency: US Dollar
-    - Notifications
-        - [x] Calendar
-        - [x] Eject Volumes
-        - [x] FaceTime
-        - [x] Find My
-        - [x] KakoTalk
-        - [x] Mail
-        - [x] Maps
-        - [x] Messages
-        - [x] Notes
-        - [x] OneDrive
-        - [x] Photos
-        - [x] Reminders
-        - [x] Things
-        - [x] WeChat
-        - show previews: **when unlocked** and [x] when the screen is locked
-    - Screen Time
-        - Off
-    - Security & Privacy
-        - Privacy
-            - [x] Magnet
-    - Touch ID
-        - one right hand and another left hand
-    - Keyboard
-        - Input Sources
-            - [x] show input menu
-            - [x] automatically switch to document's input source
-	    - [x] move a space left => ctrl + option + command + left arrow
-	    - [x] move a space right => ctrl + option + command + right arrow
-    - Trackpad
-        - Point & Click
-            - [ ] Tap to click
-            - Tracking speed -> Fast
-    - Mouse
-        - Tracking speed -> Fast
-        - Scrolling speed -> Fast
-    - Displays
-        - [ ] Automatically adjust brightness
-        - [ ] True Tone
-    - Date & Time
-        - local
-- Right side swipe
-    - world clock setup
-        - 4-clock
-            - Seoul, Salt Lake City, Edmonton, Local
-            - Next selected cities
-- Finder
-    - finder preference
-        - general
-            - [x] open folders in tabs
-        - sidebar
-            - [x] airdrop
-            - [x] application
-            - [x] downloads
-            - [x] icloud drive
-            - [x] shared
-            - [x] desktop
-            - [x] external disks
-            - [x] CD DVD
-            - [x] cloud storage
-            - [x] connected server
-        - advanced -> all ✅
-- 
+## sync iCloud apps
+- map
+- photo
+- calendar
+- notes
+- reminders
+- messages
+- mail
+
+## App Store
+- magnet
+
+## Safari
+- go to homebrew
+
+## Terminal
+
+install homebrew 
+- `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+
+install edge 
+- `brew install --cask microsoft-edge`
+
+install gh 
+- `brew install --cask microsoft-edge`
+
+install oh-my-zsh 
+- `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
+
+configure zsh theme
+- go to config file `vim .zshrc`
+- change the zsh theme `ZSH_THEME="simple"`
+
+enable vim syntax colors
+- create vimrc file `vim ~/.vimrc`
+- append the command `syntax on`
+
+## Edge download
+- OneDrive
+- 1password
+
+
