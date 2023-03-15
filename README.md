@@ -32,6 +32,9 @@ install edge
 
 install gh 
 - `brew install --cask microsoft-edge`
+- `gh repo clone "web address"`
+- `git config --global user.name "Geepum"
+- `git config --global user.email geepum@outlook.kr`
 
 install oh-my-zsh 
 - `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
